@@ -1,0 +1,34 @@
+body{
+	margin:0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	color:#ff1a1a;
+	font-family: 'Sriracha', cursive;
+}
+h2{
+	font-family: 'Sriracha', cursive; 
+	color:#a65959;
+	margin:10px;
+	border:2px inset black;
+}
+.flex-container{
+	display: flex;
+	height:100%;
+	flex-wrap:wrap;
+	align-content: flex-start;
+	background:black;
+}
+.flex-container div{
+	max-width: 400px;
+	margin: auto;
+
+}
+img{
+	width:95%;
+	height: 300px;
+	margin:5px;
+	padding: 5px;
+	border:2px   dashed white;
+}
